@@ -22,9 +22,9 @@
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-   &kp TAB   &kp F   &kp P  &kp D &kp L &kp X   &kp ; &kp U  &kp O   &kp Y   &kp B    &kp Z
-   &kp LCTRL hrml(S,     N,     T,    H)&kp K   &kp , hrmr(A,    E,      I,      C)   &kp Q
-   &kp \     &kp V   &kp W  &kp G &kp M &kp J   &kp - &kp .  &kp '   &kp =   &kp /    &kp ESC
+   &kp TAB   &kp F   &kp P  &kp D &kp L  &kp X   &kp ; &kp U  &kp O   &kp Y   &kp B    &kp Z
+   &kp LCTRL hrml(S,     N,     T,    H) &kp K   &kp , hrmr(A,    E,      I,      C)   &kp Q
+   &kp \     &kp V   &kp W  &kp G &kp M  &kp J   &kp - &kp .  &kp '   &kp =   &kp /    &kp ESC
                   &kp R  &lt NUMBERS BSPC  &kp RET   &kp TAB &lt SYMBOLS SPACE &kp TAB
                         >;
                 };
