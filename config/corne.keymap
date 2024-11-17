@@ -8,10 +8,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
-#define DEFAULT  0
-#define NUMBERS  1
-#define SYMBOLS  2
-
 #define hrml(k1, k2, k3, k4) &ht LGUI k1  &ht LALT k2  &ht LCTL k3  &ht LSFT k4
 #define hrmr(k1, k2, k3, k4) &ht RSFT k1  &ht RCTL k2  &ht RALT k3  &ht RGUI k4
 
@@ -29,7 +25,7 @@
    &kp TAB   &kp F   &kp P  &kp D &kp L &kp X   &kp ; &kp U  &kp O   &kp Y   &kp B    &kp Z
    &kp LCTRL hrml(S,     N,     T,    H)&kp K   &kp , hrmr(A,    E,      I,      C)   &kp Q
    &kp \     &kp V   &kp W  &kp G &kp M &kp J   &kp - &kp .  &kp '   &kp =   &kp /    &kp ESC
-                  &kp R  &ht &mo NUMBERS BSPC  &kp RET   &kp TAB &ht &mo SYMBOLS SPACE &kp TAB
+                  &kp R  &lt NUMBERS BSPC  &kp RET   &kp TAB &lt SYMBOLS SPACE &kp TAB
                         >;
                 };
                 number_layer {
