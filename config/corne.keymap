@@ -12,6 +12,16 @@
 #define hrmr(k1, k2, k3, k4) &ht RSFT k1  &ht RCTL k2  &ht RALT k3  &ht RGUI k4
 
 / {
+    behaviors {
+        ht: hold_tap {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;    // slightly increased for more reliable shifts
+            require-prior-idle-ms = <100>; // helps with rapid key sequences
+            flavor = "balanced";
+            bindings = <&kp>, <&kp>;
+        };
+    };
         keymap {
                 compatible = "zmk,keymap";
 
