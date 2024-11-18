@@ -30,15 +30,15 @@
 
                 default_layer {
 // -----------------------------------------------------------------------------------------
-// |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BSPC |
-// | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
-// | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
-//                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
+// |  TAB |  F  |  P  |  D  |  L   |  X  |   |  ;  |   U   |  O  |  Y  |  B  |  Z   |
+// | CTRL |  S  |  N  |  T  |  H   |  K  |   |  ,  |   A   |  E  |  I  |  C  |  Q   |
+// | \    |  V  |  W  |  G  |  M   |  J  |   |  -  |   .   |  '  |  =  |  /  | ESC  |
+//                    |  R  | BSPC | RET |   | TAB | SPACE | ESC |
                         bindings = <
    &kp TAB   &kp F   &kp P  &kp D &kp L  &kp X   &kp SEMICOLON &kp U  &kp O   &kp Y   &kp B    &kp Z
    &kp LCTRL &ht LGUI S  &ht LALT N  &ht LCTL T  &ht LSFT H  &kp K    &kp COMMA &ht RSFT A  &ht RCTL E  &ht RALT I  &ht RGUI C  &kp Q
    &kp BACKSLASH &kp V   &kp W  &kp G &kp M  &kp J   &kp MINUS &kp DOT  &kp APOS   &kp EQUAL   &kp SLASH    &kp ESC
-                  &kp R  &lt NUMBERS BSPC  &kp RET   &kp TAB &lt SYMBOLS SPACE &kp TAB
+                  &kp BSPC  &lt NUMBERS R  &kp RET   &kp ESC &lt SYMBOLS SPACE &kp TAB
                         >;
                 };
                 number_layer {
