@@ -85,9 +85,9 @@
 // | SHFT |  @  |  {  |  }  |  ~  |     |   | ../ |  \  |  *  |  /  |  ^  | SHFT |
 //                    |BSPC |     | RET |   | ESC |     | TAB |
                         bindings = <
-    &kp TAB    &kp PRCNT &kp LBKT &kp RBKT &kp DLLR &kp AMPS   &kp DOT   &kp QUOTE &kp LSS &kp GTR &kp APOS &kp BSPC
-    &kp LCTRL  &kp QUES  &kp LPAR &kp RPAR &kp COLN &kp PIPE   &kp HASH  &kp EQUAL &kp PLUS &kp MINUS &kp EXCL &kp LCTRL
-    &kp LSHFT  &kp AT    &kp LBRC &kp RBRC &kp TILDE &trans    &kp DOT   &kp BSLH &bt ASTRK &kp SLASH &kp CARET &kp RSHFT
+    &kp TAB    &kp PRCNT &kp LBKT &kp RBKT &kp DLLR &kp AMPS   &kp DOT   &kp QUOTE &kp LSS   &kp GTR   &kp APOS  &kp BSPC
+    &kp LCTRL  &kp QUES  &kp LPAR &kp RPAR &kp COLN &kp PIPE   &kp HASH  &kp EQUAL &kp PLUS  &kp MINUS &kp EXCL  &kp LCTRL
+    &kp LSHFT  &kp AT    &kp LBRC &kp RBRC &kp TILDE &trans    &kp DOT   &kp BSLH  &kp ASTRK &kp SLASH &kp CARET &kp RSHFT
                                     &trans     &trans       &trans      &trans  &trans   &trans
                         >;
                 };
