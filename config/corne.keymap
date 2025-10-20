@@ -57,6 +57,15 @@
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
 
+    combos {
+        compatible = "zmk,combos";
+
+        bootloader {
+            bindings = <&bootloader>;
+            key-positions = <0 12 24 11 23 35>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
